@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guntur82/coc_bot.git"
+    "url": "git+https://github.com/guntur82/cocbot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guntur82/coc_bot/issues"
+    "url": "https://github.com/guntur82/cocbot/issues"
   },
-  "homepage": "https://github.com/guntur82/coc_bot#readme",
+  "homepage": "https://github.com/guntur82/cocbot#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "dotenv": "^17.2.1",
