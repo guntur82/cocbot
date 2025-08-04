@@ -38,6 +38,16 @@ app.get('/update-member', async (req, res) => {
   }
 });
 
+const axios = require('axios');
+app.get('/test', async (req, res) => {
+  // cek ip
+  const response = await axios.get(`https://icanhazip.com/`, {});
+  console.log(response.data);
+  res.json({
+    test: 'test',
+  });
+});
+
 app.get('/evaluate-war', async (req, res) => {
   try {
     const result = await evaluateFinishedWar();
